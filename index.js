@@ -253,7 +253,7 @@ app.post('/project_dzff/app/bill/uploadPdf', function (req, res) {
 /**
  * invoice
  */
-app.get('/invoice', function (req, res) {
+app.get('/project_dzff/app/bill/getMyBills', function (req, res) {
 	var data = []
 	var maxId = 37
 	var minId = 3
